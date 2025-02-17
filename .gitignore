@@ -1,0 +1,49 @@
+# Compiled binaries (executables)
+/target
+
+# Package-related files
+Cargo.lock
+
+# Distribution files
+*.tar.gz
+*.zip
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp  # Swap files (Vim)
+*~     # Backup files
+.DS_Store # macOS Finder store
+
+# Operating system files
+.cache
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# Debug files
+*.pdb
+
+# Rust-specific files that are often ignored
+.cargo/ # Cargo's local cache - usually not needed in git
+out/ # Output directory, if used
+build/ # Build directory, if used
+
+# Files that should not be committed
+.env # Environment variables
+config.toml # Configuration files that may contain secrets
+
+# If you use a specific test coverage tool, add its output directory
+/coverage/
+
+# If you use a specific documentation generator, add its output directory
+/doc/
+
+# Example for specific files you might want to ignore
+# my_secret_file.txt
+
+# Add any other project-specific files or directories you don't want to track
